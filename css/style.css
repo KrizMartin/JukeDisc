@@ -1,33 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
-.menu{
+
+.menu {
     background-color: rgb(234, 234, 234);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-ul{
+
+ul {
     list-style-type: none;
     display: flex;
     gap: 100px;
+    min-width: 100%;
 }
-img{
+
+img {
     height: 150px;
 }
-.white{
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.black{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-h1{
+
+h1 {
     font-size: 90px;
 }
-.login-main{
+
+.login-main {
     font-size: 50px;
     display: flex;
     align-items: center;
@@ -36,31 +35,37 @@ h1{
     color: rgb(0, 0, 0);
 }
 
-.login-main:hover{
+.login-main:hover {
     color: rgb(125, 109, 80);
 }
-.register-link:hover{
-color: aqua;
+
+.register-link:hover {
+    color: aqua;
 }
-.register-link{
+
+.register-link {
     color: black;
 }
-.register{
+
+.register {
     display: flex;
     flex-direction: column;
 }
-.form{
+
+.form {
     display: flex;
     justify-content: baseline;
     margin: 80px;
     padding: 80px;
     gap: 100px;
 }
-.register-main{
-    padding-left:700px;
+
+.register-main {
+    padding-left: 700px;
     padding-top: 100px;
 }
-.about-us{
+
+.about-us {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,43 +73,56 @@ color: aqua;
     padding-top: 50px;
     gap: 20px;
 }
-.about-us-text{
+
+.about-us-text {
     font-size: 40px;
     padding-left: 80px;
     padding-right: 80px;
     text-align: justify;
 }
-h2{
+
+.nahled {
     font-size: 60px;
 }
-.členové{
+
+.členové {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 5px;
 }
-.h2-členové{
+
+.h2-členové {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top:50px ;
+    padding-top: 20px;
 }
-.člen{
+
+.člen {
     font-size: 45px;
     font-weight: 600;
 }
-.člen-text{
+
+.člen-text {
     font-size: 30px;
 }
-.slogan{
+
+.člen-text {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.slogan {
     font-size: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px;
 }
-.nabidka{
+
+.nabidka {
     display: flex;
     flex-direction: column;
     display: flex;
@@ -112,21 +130,52 @@ h2{
     align-items: center;
     padding: 30px;
 }
-.nastroj{
-    height:280px ;
+
+.nastroj {
+    height: 280px;
     width: 270px;
 }
-.nabidka-link{
+
+.nabidka-link {
     color: black;
     text-decoration: none;
 }
-.nabidka-link:hover{
-    color:red ;
+
+.nabidka-link:hover {
+    color: red;
 }
-.nabidka-text{
-    font-size: 25px;
+
+.nabidka-text {
+    font-size: 45px;
 }
-footer{
+
+footer {
     color: rgb(0, 0, 0);
     background-color: rgb(234, 234, 234);
+}
+
+.nabidka-title {
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-nabidka {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+.nabidka-img {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110%;
+}
+
+.objednat {
+    width: 100px;
 }

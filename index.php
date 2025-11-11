@@ -1,3 +1,4 @@
+<include>
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -8,6 +9,7 @@
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 </head>
 <body>
+</include>
     <div class="menu">
     <table>
         <ul>
@@ -29,7 +31,7 @@ Pomáháme lidem pomoct vybrat, doporučit, opravit a nově i naučit na zakázn
 
 
 <div class="nabidka">
-<h2>Náhled nabídky</h2>
+<h2 class= "nahled">Náhled nabídky</h2>
 
 <img class= "nastroj" src="images/klarinet.jpeg" alt="">
 <p class="nabidka-text">Klarinet je jednoplátkový dřevěný dechový hudební nástroj.</p>
