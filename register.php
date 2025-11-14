@@ -29,5 +29,6 @@
   <input type="submit" value="Registrovat se">
 </form>
 </div>
-</body>
-</html>
+<?php 
+include ("includes/footer.php")
+?>

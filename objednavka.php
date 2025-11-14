@@ -1,17 +1,16 @@
-<include>
-    <!DOCTYPE html>
-    <html lang="cs">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>JukeDisc</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    </head>
-
-    <body>
-</include>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+  
+</body>
+</html>
   <div class="register-main">
 <form>
  <label for="fname">Email:</label><br>
@@ -32,9 +31,6 @@
 </form>
 
 
-<footer>
-    vytvořeno společností JukeDisc s. r. o. 2025 © Všechna práva vyhrazena
-</footer>
-</body>
-
-</html>
+<?php 
+include ("includes/footer.php")
+?>

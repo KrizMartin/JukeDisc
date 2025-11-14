@@ -1,26 +1,6 @@
-<include>
-    <!DOCTYPE html>
-    <html lang="cs">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>JukeDisc</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    </head>
-
-    <body>
-</include>
-<div class="menu">
-    <table>
-        <ul>
-             <li class="menu-img"><img class="menu-img" src="images/menu.svg" alt=""></li>
-            <li class="logo-img"><img class="logo-img-wide" src="images/logo_wide.png" alt=""></li>
-            <li><a class="login-main" href="login.php">Přihlásit se</a></li>
-        </ul>
-    </table>
-</div>
+<?php 
+include ("includes/header.php")
+?>
 <div class="hero">
 <h3 class="title">Nenašli jste si Váš produkt, který jste hledali?</h3>
 <p class="title-text">Tak vyplňte formulář a my Vám ten hledaný produkt vytvoříme a doručíme</p>
@@ -48,8 +28,6 @@
   <input type="submit" value="Vytvořit objednávku">
 </form>
 
-<footer>
-    vytvořeno společností JukeDisc s. r. o. 2025 © Všechna práva vyhrazena.
-</footer>
-</body>
-</html>
+<?php 
+include ("includes/footer.php")
+?>

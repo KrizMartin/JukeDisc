@@ -1,26 +1,6 @@
-<include>
-    <!DOCTYPE html>
-    <html lang="cs">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>JukeDisc</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    </head>
-
-    <body>
-</include>
-<div class="menu">
-    <table>
-        <ul>
-            <li class="menu-img"><img class="normal-img" src="images/menu.svg" alt=""></li>
-            <li class="logo-img"><img class="logo-img-wide" src="images/logo_wide.png" alt=""></li>
-            <li><a class="login-main" href="login.php">Přihlásit se</a></li>
-        </ul>
-    </table>
-</div>
+<?php 
+include ("includes/header.php")
+?>
 <h4 class="nabidka-title">V naší nabídce najdete nástroje od všech druhů kytar přes dřevěné
     dechové hudební nástroje až po všechny hudební příslušenství</h4>
 <ul class="ul-nabidka">
@@ -29,8 +9,8 @@
         <button class="objednat" type="button"><a href="objednavka.php">Objednat!</a></button>
     </li>
     <li class="li-border">
-        <h3>Elektroakustické kytary od 5 999,-</h3> <img class="nabidka-img2" src="images/elektroakustická.jpeg" alt="">
-        <button class="objednat" type="button"><a href="objednavka.php">Objednat!</a></button>
+        <h3>Elektroakustické kytary od 5 999,-</h3> <img class="nabidka-img" src="images/elektroakustická.jpeg" alt="">
+        <button class="objednat2" type="button"><a href="objednavka.php">Objednat!</a></button>
     </li>
     <li class="li-border">
         <h3>Elektrická kytary od 6 299,-</h3> <img class="nabidka-img" src="images/elektrická.jpeg" alt="">
@@ -106,9 +86,6 @@
     </li>
 
 </ul>
-<footer>
-    vytvořeno společností JukeDisc s. r. o. 2025 © Všechna práva vyhrazena
-</footer>
-</body>
-
-</html>
+<?php 
+include ("includes/footer.php")
+?>

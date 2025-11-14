@@ -1,27 +1,6 @@
-<include>
-    <!DOCTYPE html>
-    <html lang="cs">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>JukeDisc</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    </head>
-
-    <body>
-</include>
-<div class="menu">
-    <table>
-        <ul>
-             <li class="menu-img"><img class="menu-img" src="images/menu.svg" alt=""></li>
-            <li class="logo-img"><img class="logo-img-wide" src="images/logo_wide.png" alt=""></li>
-            <li><a class="login-main" href="login.php">Přihlásit se</a></li>
-        </ul>
-    </table>
-</div>
-
+<?php 
+include ("includes/header.php")
+?>
 <h1 class="slogan">Najdi rytmus ve svém srdci🎵🎶</h1>
 
 <div class="about-us">
@@ -38,7 +17,7 @@
     <img class="nastroj" src="images/klarinet.jpeg" alt="">
     <p class="nabidka-text">Klarinet je jednoplátkový dřevěný dechový hudební nástroj.</p>
     <img class="nastroj" src="images/klávesy.jpeg" alt="">
-    <p class="nabidka-text">Klávesy je elektronický, obvykle digitální klávesový nástroj vybavený automatickými doprovody, generátory rytmů a dalšími doplňky.</p>
+    <p class="nabidka-text">Klávesy je elektronický, obvykle digitální klávesový nástroj vybavený automatickými doprovody, generátory rytmů a dalšími doplňky.</p> <br></br>
     <img class="nastroj" src="images/kytara.jpeg" alt="">
     <p class="nabidka-text">Kytara je drnkací strunný nástroj s hmatníkem většinou opatřeným pražci a obvykle má šest nebo dvanáct strun.</p>
     <img class="nastroj" src="images/trubka.jpeg" alt="">
@@ -80,10 +59,8 @@
 <p class="contacts-text">+420 605 471 847</p>
 <p class="contacts-text2">Anebo přijďte rovnou k nám na kamennou prodejnu, dozvíte se v sekci:<a class="contacts-link" href="kontakt.php"> "Kontakty"</a></p>
 
+<?php 
+include ("includes/footer.php")
+?>
 
 
-<footer>
-    vytvořeno společností JukeDisc s. r. o. 2025 © Všechna práva vyhrazena
-</footer>
-</body>
-</html>
