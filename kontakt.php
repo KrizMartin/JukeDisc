@@ -8,7 +8,8 @@ include ("includes/header.php")
         <li class="info-text">Infolinka: +420 720 589 333</li>
         <li class="info-text">Číslo na ředitele firmy: +420 722 716 245</li>
         <li class="info-text">E-mail: jukedisc@gmail.com</li>
-        <li class="info-text"> <img src="images/icons8-instagram-logo-350.png" alt="">: jukedisc_</li>
+        <li class="info-text"> <img src="images/icons8-instagram-logo-350.png" alt="">: <a href="https://www.instagram.com/jukedisc_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">jukedisc_</a> </li>
+        <li class="infotext"> <img src="images/facebook.png" alt=""><a href="https://www.facebook.com/profile.php?id=61583937925442">:JukeDisc</a></li>
     </ul>
 </table>
 </div>
