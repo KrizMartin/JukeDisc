@@ -1,7 +1,13 @@
 <?php 
 include ("includes/header.php")
 ?>
-<h1 class="slogan">Najdi rytmus ve svém srdci🎵🎶</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JukeDisc</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
 
 <div class="about-us">
     <h2 class="about-us-title">Kdo jsme?</h2>

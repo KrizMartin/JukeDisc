@@ -3,7 +3,7 @@ include ("includes/header.php")
 ?>
 <div class="hero">
 <h3 class="title">Nenašli jste si Váš produkt, který jste hledali?</h3>
-<p class="title-text">Tak vyplňte formulář a my Vám ten hledaný produkt vytvoříme a doručíme</p>
+<p class="title-text">Tak vyplňte formulář a my Vám produkt vytvoříme a doručíme</p>
 </div>
 
 <form class="nabidka-na-miru-form">

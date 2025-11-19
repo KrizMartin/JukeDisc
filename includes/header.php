@@ -7,9 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>JukeDisc</title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+ <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     </head>
-
     <body>
 <div class="menu">
     <table>

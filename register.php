@@ -12,21 +12,21 @@
 <form>
  <label for="fname">Email:</label><br>
   <input type="e-mail" id="fname" name="fname" value=""><br>
-  <label for="lname">Jméno:</label><br>
+  <label for="lname">Příjmení:</label><br>
   <input type="text" id="lname" name="lname" value=""><br><br>
-  <label for="fname">Příjmení:</label><br>
+  <label for="fname">Jméno:</label><br>
   <input type="text" id="fname" name="fname" value=""><br>
   <label for="lname">Telefonní číslo:</label><br>
-  <input type="number" id="lname" name="lname" value=""><br><br>
+  <input type="number" id="" name="" value=""><br><br>
   <label for="fname">Oblíbený nástroj?</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
+  <input type="text" id="" name="" value=""><br>
   <label for="lname">Tvůj oblíbený styl hudby:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="text" id="" name="" value=""><br><br>
   <label for="fname">Heslo:</label><br>
-  <input type="password" id="fname" name="fname" value=""><br>
+  <input type="password" id="" name="" value=""><br>
   <label for="lname">Opakovánní hesla:</label><br>
-  <input type="password" id="lname" name="lname" value=""><br><br>
-  <input type="submit" value="Registrovat se">
+  <input type="password" id="" name="" value=""><br><br>
+  <button class="register-button"> <a class="register-link" href="registrovanej.php">registrovat se</a></button>
 </form>
 </div>
 <?php 

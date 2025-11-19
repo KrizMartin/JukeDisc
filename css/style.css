@@ -13,6 +13,8 @@
     top: 0;
     height: 20%;
     z-index: 999999;
+    background: #ffffff;
+background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(77, 73, 73, 1) 100%);
 }
 .podmenu{
     background-color: rgb(234, 234, 234);
@@ -26,7 +28,9 @@
     gap: 20px;
     position: sticky;
     top: 130px;
-    max-width: 98%; 
+    max-width: 98%;
+    background: #ffffff;
+background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(77, 73, 73, 1) 100%); 
 }
 .podmenu-link{
     text-decoration: none;
@@ -67,7 +71,12 @@ img {
 h1 {
     font-size: 90px;
 }
-
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .login-main {
     font-size: 50px;
     display: flex;
@@ -86,11 +95,12 @@ h1 {
 }
 
 .register-link:hover {
-    color: aqua;
+    color: rgb(102, 105, 63);
 }
 
 .register-link {
     color: black;
+    text-decoration: none;
 }
 
 .register {
@@ -101,17 +111,24 @@ h1 {
 .form {
     display: flex;
     justify-content: baseline;
+    align-items: center;
     margin: 80px;
     padding: 80px;
     gap: 100px;
+    position: relative;
+    left: 250px;
 }
 
 .register-main {
-    padding-left: 700px;
-    padding-top: 100px;
+    padding-left: 650px;
+    padding-top: 75px;
+    padding-bottom: 140px ;
 }
 .about-us-title{
     font-size: 50px;
+    position: relative;
+    animation: mymove 5s
+    
 }
 .about-us {
     display: flex;
@@ -127,8 +144,13 @@ h1 {
     padding-left: 100px;
     padding-right: 100px;
     text-align: justify;
+    position: relative;
+    animation: mymove 3s
 }
-
+@keyframes mymove{
+    from {left: -5500px;}
+    to {left: 0px}
+}
 .nahled {
     font-size: 50px;
 }
@@ -170,8 +192,12 @@ h2{
     align-items: center;
     justify-content: center;
     padding: 30px;
+    animation: fadeIn 3s;
 }
-
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 .nabidka {
     display: flex;
     flex-direction: row;
@@ -180,8 +206,13 @@ h2{
     justify-content: center;
     align-items: center;
     padding: 30px;
+    position: relative;
+    animation: mymove2 5s;
 }
-
+@keyframes mymove2{
+   from {right: -5500px;}
+    to {right: 0px}
+}
 .nastroj {
     height: 380px;
     width: 370px;
@@ -228,6 +259,11 @@ h2{
     flex-direction: column;
     padding-bottom: 5px;
     position: relative;
+    animation: mymove3 2.5s;
+}
+@keyframes mymove3{
+   from {left: -5500px;}
+    to {left: 0px}
 }
 
 .ul-nabidka li {
@@ -285,6 +321,11 @@ h3{
     margin-bottom: 5px;
     margin-top: 15%;
 }
+.objednat3{
+    position: relative;
+    right:-30px ;
+    padding: 1%;
+}
 .objednavka-link{
     color: black;
     text-decoration:none ;
@@ -331,12 +372,19 @@ h3{
     justify-content: center;
     align-items: center;
     padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    position: relative;
+    left: 50px;
 }
 .contacts-title2{
     font-size: 40px;
     justify-content: center;
     align-items: center;
     padding-top: 25px;
+    position: relative;
+    left: 30px;
 }
 .pozdrav{
     display: flex;
@@ -350,7 +398,7 @@ h3{
     max-width: 10%;
     flex-direction: column;
     position: relative;
-    left: 670px;
+    left: 615px;
 }
 .info-text{
     font-size: 30px;
@@ -401,18 +449,143 @@ padding-right: 15px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    animation: mymove4 2s;
+}
+@keyframes mymove4{
+   from {bottom: -5500px;}
+    to {bottom: 0px}
 }
 .contacts-us{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    padding-top :30px;
+    padding-left:15px ;
+    padding-right: 15px;
+    right: 40px;
+    animation: mymove5 4s ;
+}
+@keyframes mymove5{
+    from {left: -5500px;}
+    to {left: 0px}
 }
 .meet-us{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 50px;
+    position: relative;
+    right: 40px;
+    animation: mymove6 5s;
+}
+@keyframes mymove6{
+       from {right: -5500px;}
+    to {right: 0px}
+}
+.ig-link{
+text-decoration: none;
+color: black;
+font-size: 35px;
+}
+.fb-link{
+text-decoration: none;
+color: black;
+font-size: 35px;
+}
+.social-media{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+  border: 3px solid #555;
+}
+input[type=number]:focus {
+  background-color: lightblue;
+  border: 3px solid #555;
+}
+input[type=password]:focus {
+  background-color: lightblue;
+  border: 3px solid #555;
+}
+input[type=e-mail]:focus {
+  background-color: lightblue;
+  border: 3px solid #555;
+}
+input[type=submit] {
+margin-bottom:20px ;
+}
+ body, html{
+        max-width: 105%;
+    overflow-x: hidden;
+}
+.no-ucet{
+display: flex;
+justify-content: center;
+align-items: center; 
+font-size: 40px;
+
+}
+.registrace{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 60px;
+    background-color: gold;
+}
+.prihlaseni{
+   display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 60px; 
+}
+.logo-img-wide2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 40%;
+}
+.menu2{
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+.podmenu2{
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    height: 5%;
+    z-index: 999999;
+    font-size: 40px;
+    gap: 20px;
+    position: sticky;
+    top: 105px;
+    max-width: 98%; 
+}
+.aktivační-kód{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+    padding-top: 25%;
+}
+.register-button{
+    margin-bottom: 95px;
 }
 @media only screen and (max-width:676px) {
     .menu{
@@ -468,9 +641,6 @@ padding-right: 15px;
     .contacts-text2{
         font-size: 20px;
     }
-    body, html{
-        max-width: 100%;
-    }
     .člen-text{
         font-size: 15px;
     }
@@ -488,7 +658,94 @@ padding-right: 15px;
     .nabidka-title{
         font-size:25px;
     }
-    .nabidka-na-miru-form{
-      
+    .pozdrav{
+        position: relative;
+        left: 230px;
+    }
+    .title{
+        position: relative;
+        left: 50px;
+    }
+    .title-text{
+        position: relative;
+        left: 20px;
+    }
+    .form{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 40px;
+    position: relative;
+    left: 0px;
+    }
+    .register-main{
+        padding-top: 100px;
+        padding-left: 200px;
+    }
+
+}
+@media only screen and (max-width:1000px){
+    .contacts-link{
+        position: relative;
+        bottom: 16px;
+    }
+    .logo-img-wide {
+        position: relative;
+        left: 0px;
+    }
+    .login-main{
+        position: relative;
+        right: 400px;
+    }
+    .ul-nabidka, li{
+        row-gap: 3px;
+        gap: 3px;
+    }
+    .li-border{
+    margin: 15px;
+    border-radius: 10%;
+    width: 65%;
+} 
+    .nabidka-img {
+        width: 140px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: contain;
+        position: relative;
+        left: -5px;
+        margin: 5px;
+}
+h3{
+    padding: 4px;
+}
+.nabidka-title{
+    font-size: 35px;
+}
+.pozdrav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 410px;
+
+}
+.form{
+    position: relative;
+    left: 0px;
+}
+.logo-img-wide2{
+    position: relative;
+    left: 20%;
+}
+  .register-main{
+        padding-top: 100px;
+        padding-left: 400px;
+    }
+.nabidka-na-miru-text{
+    padding-left:5px;
+    padding-right: 5px;
+    font-size: 25px;
 }
 }
